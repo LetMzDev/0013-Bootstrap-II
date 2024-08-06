@@ -167,7 +167,7 @@
 
 				<div class="row mx-0">
 					<div class = "col-12 col-md-6 col-lg-4">
-						<div class="card border-0 mx-auto btn" style="width: 18rem;">
+						<div class="card border-0 mx-auto btn" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#modal-1">
 							<img src="./assets/produtos-cafe-tradicional.png" class="card-img-top" alt = "Xícara de café preto">
 							<div class="card-body text-center">
 								<h3 class="card-text fw-bold">
@@ -368,6 +368,40 @@
 				</div>
 			</div>
 		</div>
+	</div>
+
+	<!-- Modais -->
+	<div>
+
+		<!-- Modal-1 -->
+		<div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Cafés tradicionais</h2>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<img
+							loading="lazy"
+							src = "./assets/produtos-cafe-tradicional.png"
+							alt = "Xícara de café preto"
+							class = "w-100"
+						>
+						<p>
+							O café Serenatto é conhecido por seus blends tradicionais e saborosos, que agradam aos amantes da bebida. Nossos grãos são cuidadosamente selecionados e torrados para produzir um aroma rico e sabor equilibrado.
+						</p>
+						<p>
+							Entre os cafés mais tradicionais da casa, destaca-se o "Café Serenatto", um blend exclusivo de grãos com notas de chocolate e caramelo. Outra opção popular é o "Café Italiano", um café expresso encorpado e intenso. Já o "Café Cappuccino" é uma escolha clássica para quem prefere uma bebida cremosa e suave.
+						</p>
+					</div>
+					<div class="modal-footer mx-auto">
+						<button type="button" class="btn btn-secondary botao-padrao border-0" data-bs-dismiss="modal">Fechar janela</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
 	</div>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
