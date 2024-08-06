@@ -29,6 +29,16 @@ input[type="checkbox"]:focus
 	background-image: url(./assets/banner-1.png);
 }
 
+.banner-2
+{
+	background-image: url(./assets/banner-2.png);
+}
+
+.banner-3
+{
+	background-image: url(./assets/banner-3.png);
+}
+
 .banners
 {
 	width: 100%;
@@ -37,4 +47,9 @@ input[type="checkbox"]:focus
 	background-size: cover; /* Preenche todo o espaço com a imagem */
 	background-position: center;
 	background-attachment: fixed; /* Fixa a imagem na tela Efeito Parallaxes*/
+}
+
+.banners-titulo
+{
+	--bs-bg-opacity: 0.2;
 }
