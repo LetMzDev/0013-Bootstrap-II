@@ -95,10 +95,16 @@
 					alt="Balcão de padaria tradicional com alimentos diversos">
 				<div class="card-body">
 					<h5 class="card-title py-2 fw-bold">Café & Bistrô</h5>
-					<p class="card-text">Nosso bistrô oferece uma ampla variedade de cafés, smoothies, deliciosos
-					salgados e sobremesas. Uma excelente opção para quem busca um lugar tranquilo e
-					aconchegante.</p>
-					<a href="#" class="btn botao-padrao w-100 fw-bold">Quero detalhes</a>
+					<p class="card-text">
+						Nosso bistrô oferece uma ampla variedade de cafés, smoothies, deliciosos salgados e sobremesas. Uma excelente opção para quem busca um lugar tranquilo e aconchegante.
+					</p>
+					<a href = "#"
+						class = "btn botao-padrao w-100 fw-bold"
+						data-bs-toggle = "offcanvas"
+						data-bs-target = "#canvas-1"
+						aria-controls = "offcanvasRight">
+						Quero detalhes
+					</a>
 				</div>
 				</div>
 
@@ -143,7 +149,20 @@
 
 		<section class = "banners banner-3">
 		</section>
+
 	</main>
+
+	<!-- Canvas-1 -->
+
+	<div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-1" aria-labelledby="offcanvasRightLabel">
+		<div class="offcanvas-header">
+			<h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+			<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+		</div>
+		<div class="offcanvas-body">
+		...
+		</div>
+	</div>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
