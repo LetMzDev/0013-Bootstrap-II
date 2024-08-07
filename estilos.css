@@ -74,3 +74,19 @@ input[type="checkbox"]:focus
 {
 	background-color: var(--marrom-claro);
 }
+
+/* Inspecionando os elementos e alterando os valores das variáveis do Bootstrap */
+[data-bs-theme = "dark"]
+{
+	color:white;
+
+	.nav-link, .card-body, .offcanvas, .accordion-item, .accordion, .btn
+	{
+		--bs-nav-link-color: white; /* Sobrepor a cor da variável do Bootstrap para branco */
+		--bs-card-color: white;
+		--bs-offcanvas-color: white;
+		--bs-accordion-color: white;
+		--bs-body-color: white;
+		--bs-body-color: white;
+	}
+}
