@@ -69,3 +69,8 @@ input[type="checkbox"]:focus
 {
 	background-color: var(--marrom-claro);
 }
+
+.cor-rodape
+{
+	background-color: var(--marrom-claro);
+}
